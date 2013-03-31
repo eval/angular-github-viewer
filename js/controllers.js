@@ -10,6 +10,7 @@ function AppCtrl($scope, $http, $log) {
     $scope.repos = [];
     $scope.commits = [];
     $scope.current_member = null;
+    $scope.current_repo = null;
   }
   reset();
 
@@ -30,6 +31,7 @@ function AppCtrl($scope, $http, $log) {
   }
 
   $scope.getCommits = function(repo){
+    $scope.current_repo = repo;
     $log.log("Wanna get commits from " + repo + ", huh?");
     $http.get("https://api.github.com/repos/" + $scope.current_member + "/" + repo + "/commits").success(function(data){
       $scope.commits = data;
