@@ -5,28 +5,34 @@
 
 function AppCtrl($scope, $http, $log) {
   $scope.organization = 'github';
-  $scope.members = [];
-  $scope.repos = [];
-  $scope.commits = [];
+  var reset = function() {
+    $scope.members = [];
+    $scope.repos = [];
+    $scope.commits = [];
+    $scope.current_member = null;
+  }
+  reset();
 
   $scope.getMembers = function(organization){
+    reset();
     $log.log("Wanna know about " + organization + ", huh?");
-    $http.get('json/members.json').success(function(data){
-      $scope.members = data.data;
+    $http.get("https://api.github.com/orgs/" + organization + "/members").success(function(data){
+      $scope.members = data;
     });
   }
 
   $scope.getRepos = function(member){
+    $scope.current_member = member;
     $log.log("Wanna get repos from " + member + ", huh?");
-    $http.get('json/repos.json').success(function(data){
-      $scope.repos = data.data;
+    $http.get("https://api.github.com/users/" + member + "/repos").success(function(data){
+      $scope.repos = data;
     });
   }
 
   $scope.getCommits = function(repo){
     $log.log("Wanna get commits from " + repo + ", huh?");
-    $http.get('json/commits.json').success(function(data){
-      $scope.commits = data.data;
+    $http.get("https://api.github.com/repos/" + $scope.current_member + "/" + repo + "/commits").success(function(data){
+      $scope.commits = data;
     });
   }
 }
