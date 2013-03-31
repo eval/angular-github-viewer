@@ -13,13 +13,11 @@
     <div class="navbar-inner">
       <div class="container-fluid">
         <a class="brand" href="#"> GitHub Organization Viewer</a>
-        <span class="navbar-text">Backbone Boilerplate/LayoutManager
-          Example</span>
+        <span class="navbar-text">Angular Example</span>
 
         <ul class="nav pull-right">
           <li>
-          <a href="https://github.com/tbranyen/github-viewer">GitHub
-            Source</a>
+            <a href="https://github.com/eval/angular-github-viewer">GitHub Source</a>
           </li>
         </ul>
       </div>
@@ -33,7 +31,7 @@
               <strong class="label">Enter an organization name:</strong>
 
               <div class="input-append">
-                <input type="text" class="org valid" name="org" value="matchbox" ng-model="organization">
+                <input type="text" class="org valid" name="org" ng-model="organization">
                 <button class="btn" ng-click="getMembers(organization)">Search</button>
               </div>
             </form>
@@ -42,7 +40,7 @@
               <strong class="label">Select a user:</strong>
               <ul class="user-list clearfix unstyled">
                 <li ng-repeat="member in members">
-                <button class="btn btn-small btn-info" ng-click="getRepos(member.login)"><i class="icon-user icon-white"></i>{{member.login}}</button>
+                  <button class="btn btn-small btn-info" ng-click="getRepos(member.login)"><i class="icon-user icon-white"></i>{{member.login}}</button>
                 </li>
               </ul>
 
@@ -74,10 +72,10 @@
         <hr>
 
         <footer>
-        <p><a href="http://twitter.com/tbranyen" target="_blank">@tbranyen</a> | MIT License</p>
+          <p><a href="http://twitter.com/gertgoet" target="_blank">@eval</a> | MIT License</p>
         </footer>
       </div>
-      </main>
+    </main>
 
 
   <!-- In production use:
