@@ -34,7 +34,7 @@
 
               <div class="input-append">
                 <input type="text" class="org valid" name="org" value="matchbox" ng-model="organization">
-                <button class="btn" ng-click="action(organization)">Search</button>
+                <button class="btn" ng-click="getMembers(organization)">Search</button>
               </div>
             </form>
 
@@ -42,7 +42,7 @@
               <strong class="label">Select a user:</strong>
               <ul class="user-list clearfix unstyled">
                 <li ng-repeat="member in members">
-                  <button class="btn btn-small btn-info"><i class="icon-user icon-white"></i>{{member.login}}</button>
+                <button class="btn btn-small btn-info" ng-click="getRepos(member.login)"><i class="icon-user icon-white"></i>{{member.login}}</button>
                 </li>
               </ul>
 
@@ -52,163 +52,23 @@
       </div></div>
       <div class="row-fluid content">
         <div class="span3 repos"><div class="repos-wrapper">
-            <h4>Repos (28)</h4>
+            <h4>Repos ({{repos.length}})</h4>
             <hr>
 
-
-            <ul class="nav nav-pills nav-stacked"><li><a href="#">paulswartz_net</a>
-              </li><li class="active"><a href="#">celery</a>
-              </li><li><a href="#">watchthesky</a>
-              </li><li><a href="#">github3.py</a>
-              </li><li><a href="#">django-tastypie</a>
-              </li><li><a href="#">django</a>
-              </li><li><a href="#">fabric</a>
-              </li><li><a href="#">pycrypto</a>
-              </li><li><a href="#">Django-Socialauth</a>
-              </li><li><a href="#">fishfish</a>
-              </li><li><a href="#">miro</a>
-              </li><li><a href="#">mirocommunity</a>
-              </li><li><a href="#">miller</a>
-              </li><li><a href="#">travis-monitor</a>
-              </li><li><a href="#">gnome-shell-grid</a>
-              </li><li><a href="#">feedparser</a>
-              </li><li><a href="#">wendler-531-app</a>
-              </li><li><a href="#">mechanize</a>
-              </li><li><a href="#">vidscraper</a>
-              </li><li><a href="#">mirocommunity-vagrant</a>
-              </li><li><a href="#">bugzilla2rtm</a>
-              </li><li><a href="#">backup</a>
-              </li><li><a href="#">pov_localmc</a>
-              </li><li><a href="#">Miro-Community</a>
-              </li><li><a href="#">localtv-themes</a>
-              </li><li><a href="#">django-socialregistration</a>
-              </li><li><a href="#">django-twitter-oauth</a>
-              </li><li><a href="#">bz-timeline-to-stats</a>
-              </li></ul>
+            <ul class="nav nav-pills nav-stacked">
+              <li ng-repeat="repo in repos"><a href="#" ng-click="getCommits(repo.name)">{{repo.name}}</a></li>
+            </ul>
           </div></div>
-          <div class="span9 commits"><table class="table table-striped"><tbody><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/d6cfd6c87c80627670643f665a7eae7e2a88e76e" target="_blank">d6cfd6c87c80627670643f665a7eae7e2a88e76e</a></td>
-                  <td><strong>Also pass args groups in one-level chains</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/cea57efa02ae6ccae55ad38161bcfa405aae171a" target="_blank">cea57efa02ae6ccae55ad38161bcfa405aae171a</a></td>
-                  <td><strong>refactors some hairy canvas code</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/abe2ae40e93465b1a83e15b794a1a00cc0b48886" target="_blank">abe2ae40e93465b1a83e15b794a1a00cc0b48886</a></td>
-                  <td><strong>Chaining a group should give GroupResults, and also pass partial args given to subchains to the first task (terminology is evolving :) Closes #1057</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/e59144bc3f6ea2eef14c46fdf685c14b22d1075a" target="_blank">e59144bc3f6ea2eef14c46fdf685c14b22d1075a</a></td>
-                  <td><strong>celery shell command should add cwd to path</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/ea4581f4dedcbbaf697d980da31286514ef56640" target="_blank">ea4581f4dedcbbaf697d980da31286514ef56640</a></td>
-                  <td><strong>Handle pytz.AmbiguousTimeError.  Closes #1061</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/065c771b11177123fda65c76757d5306f203ca97" target="_blank">065c771b11177123fda65c76757d5306f203ca97</a></td>
-                  <td><strong>flakes</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/f01faf11d94afb09d2bae90717ae414889d695cf" target="_blank">f01faf11d94afb09d2bae90717ae414889d695cf</a></td>
-                  <td><strong>Makes sure tasks always use the right app when using force_execv.  Closes #1072</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/506074a1bab652e69dafcb9229021a3b8480ea74" target="_blank">506074a1bab652e69dafcb9229021a3b8480ea74</a></td>
-                  <td><strong>flakes</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/db263327fa306f970f7c02bb22fb65381a027455" target="_blank">db263327fa306f970f7c02bb22fb65381a027455</a></td>
-                  <td><strong>Fixes eta/countdown when ENABLE_UTC=False.  Closes #1065</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/e8f10d2b956d6f85ebe13190ccab0a40d0942023" target="_blank">e8f10d2b956d6f85ebe13190ccab0a40d0942023</a></td>
-                  <td><strong>inspect stats command now collects info from installed bootsteps.Step.info</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/8bc878ead6ae868ce872babfe1b33bd17fdee346" target="_blank">8bc878ead6ae868ce872babfe1b33bd17fdee346</a></td>
-                  <td><strong>Fixes typo in broadcast routing example.  Closes #1026</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/cebdc9430ae0eda044dc1f996d8ec7449cd9bd1a" target="_blank">cebdc9430ae0eda044dc1f996d8ec7449cd9bd1a</a></td>
-                  <td><strong>Added myself to Contributors (pull request 1069)</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/43c4406910608b24ee37d14a42c41f67d8a190cc" target="_blank">43c4406910608b24ee37d14a42c41f67d8a190cc</a></td>
-                  <td><strong>Renames celery.bin.celeryd to celery.bin.worker</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/d5536e0aaf0001dda763c246bb1f4d074a67373f" target="_blank">d5536e0aaf0001dda763c246bb1f4d074a67373f</a></td>
-                  <td><strong>Renames celery.bin.celeryd_multi -&gt; celery.bin.multi</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/fcb4611b8b1458a8b68529663d861657a4fedc39" target="_blank">fcb4611b8b1458a8b68529663d861657a4fedc39</a></td>
-                  <td><strong>Renames celery.bin.celerybeat -&gt; celery.bin.beat</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/5c81c4ea19ce7b3808b6d9c1dcfce3f61d3a33af" target="_blank">5c81c4ea19ce7b3808b6d9c1dcfce3f61d3a33af</a></td>
-                  <td><strong>Renames celery.bin.celeryev -&gt; celery.bin.events</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/90beec934e682d6bd9bb895d0d857a7981246db2" target="_blank">90beec934e682d6bd9bb895d0d857a7981246db2</a></td>
-                  <td><strong>Removes extra/debian/init-d-deprecated</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/0cdc4df9ed464baa5c80976cf1d02fc3ac4457b8" target="_blank">0cdc4df9ed464baa5c80976cf1d02fc3ac4457b8</a></td>
-                  <td><strong>Removes celeryevcam script (DjangoAdmin monitor replaced by Flower)</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/d32e4647562b2175718da1ff8f8d9600bffda73f" target="_blank">d32e4647562b2175718da1ff8f8d9600bffda73f</a></td>
-                  <td><strong>Renames celery.bin.camqadm -&gt; celery.bin.amqp</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/7de929ec2f0a631bb09c1bd1320fb35e19245578" target="_blank">7de929ec2f0a631bb09c1bd1320fb35e19245578</a></td>
-                  <td><strong>[multi] Now supports FQDN nodenames (name@hostname), new expansion variable %N added</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/af5862f5148144cfc1038dad9969d26502ce9d03" target="_blank">af5862f5148144cfc1038dad9969d26502ce9d03</a></td>
-                  <td><strong>Adds CELERY_APP and CELERY_BIN options to init scripts and updates daemonization tutorial.  Closes #1012</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/1c737d769ccb46d98ad25c5bad9cb9210a76986b" target="_blank">1c737d769ccb46d98ad25c5bad9cb9210a76986b</a></td>
-                  <td><strong>[worker] Now sleeps for 1 second if consumer restarted more than 5 times in 1 second.  Closes #1053</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/237e51e411459f20677b9ca81db9142238f3f9f9" target="_blank">237e51e411459f20677b9ca81db9142238f3f9f9</a></td>
-                  <td><strong>Merge branch 'master' of github.com:celery/celery</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/c64ac28ccc2e39aa350fbbaa9ddde2cc3c142ea6" target="_blank">c64ac28ccc2e39aa350fbbaa9ddde2cc3c142ea6</a></td>
-                  <td><strong>Merge pull request #1058 from nott/supervisord-examples
-
-                      Add killasgroup=true to the supervisord configuration file example for celeryd</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/7b0a7447413d64e1757ed28e2531b9bc3de2f5ed" target="_blank">7b0a7447413d64e1757ed28e2531b9bc3de2f5ed</a></td>
-                  <td><strong>Renames Email.email_body,email_subject -&gt; Email.body,subject</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/ff6cfae98865bacaad398d32d67c81ee659f69c2" target="_blank">ff6cfae98865bacaad398d32d67c81ee659f69c2</a></td>
-                  <td><strong>EmailError : use subject and body from constructor, not the default ones</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/a2e0ee4f0b6d72322744bf2e927caa9f067a359b" target="_blank">a2e0ee4f0b6d72322744bf2e927caa9f067a359b</a></td>
-                  <td><strong>Default max retries for retry policy is now 5</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/8ffee5a00399c2c27ac6a8bc66eac1d3d7cb16ee" target="_blank">8ffee5a00399c2c27ac6a8bc66eac1d3d7cb16ee</a></td>
-                  <td><strong>Tox is broken</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/824689d897e87e3d0fa879ad92bcd175b8c9d40c" target="_blank">824689d897e87e3d0fa879ad92bcd175b8c9d40c</a></td>
-                  <td><strong>Tests passing</strong></td>
-
-                  </tr><tr>
-                  <td><a href="https://github.com/paulswartz/celery/commit/0e0042f697f3824413fbe0986fc9533133149f7d" target="_blank">0e0042f697f3824413fbe0986fc9533133149f7d</a></td>
-                  <td><strong>App now supports fixups argument, which is also pickled</strong></td>
-
-          </tr></tbody></table></div>
+          <div class="span9 commits">
+            <table class="table table-striped">
+              <tbody>
+                <tr ng-repeat="commit in commits">
+                  <td><a href="{{commit.url}}" target="_blank">{{commit.sha}}</a></td>
+                  <td><strong>{{commit.commit.message}}</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <hr>
