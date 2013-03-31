@@ -1,0 +1,2099 @@
+{
+  "meta": {
+    "X-RateLimit-Limit": "60",
+    "X-RateLimit-Remaining": "46",
+    "X-GitHub-Media-Type": "github.beta",
+    "Link": [
+      [
+        "https://api.github.com/repositories/65252/commits?_=1364750141820&callback=jQuery18303517218972556293_1364749700233&last_sha=ebcf3eb3856a34f22832c8c5678819887915c741&top=master",
+        {
+          "rel": "next"
+        }
+      ],
+      [
+        "https://api.github.com/repositories/65252/commits?_=1364750141820&callback=jQuery18303517218972556293_1364749700233&sha=master",
+        {
+          "rel": "first"
+        }
+      ]
+    ],
+    "status": 200
+  },
+  "data": [
+    {
+      "sha": "58f64e826976cfdf6f277ce418891de8197c55e9",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-26T11:11:30Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-26T11:11:30Z"
+        },
+        "message": "Merge pull request #885 from mattr-/remove-unused-code\n\nRemove unused code",
+        "tree": {
+          "sha": "16841038b1688192e8bcb7fd67b16fb3ad16aee3",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/16841038b1688192e8bcb7fd67b16fb3ad16aee3"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/58f64e826976cfdf6f277ce418891de8197c55e9",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/58f64e826976cfdf6f277ce418891de8197c55e9",
+      "html_url": "https://github.com/mojombo/jekyll/commits/58f64e826976cfdf6f277ce418891de8197c55e9",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/58f64e826976cfdf6f277ce418891de8197c55e9/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+          "html_url": "https://github.com/mojombo/jekyll/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e"
+        },
+        {
+          "sha": "fa39a97bc6ef32d5020eff54bd110acc2c4278ac",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/fa39a97bc6ef32d5020eff54bd110acc2c4278ac",
+          "html_url": "https://github.com/mojombo/jekyll/commits/fa39a97bc6ef32d5020eff54bd110acc2c4278ac"
+        }
+      ]
+    },
+    {
+      "sha": "fa39a97bc6ef32d5020eff54bd110acc2c4278ac",
+      "commit": {
+        "author": {
+          "name": "Matt Rogers",
+          "email": "mattrogers@sbcglobal.net",
+          "date": "2013-03-26T02:22:42Z"
+        },
+        "committer": {
+          "name": "Matt Rogers",
+          "email": "mattrogers@sbcglobal.net",
+          "date": "2013-03-26T02:22:42Z"
+        },
+        "message": "Remove unused code",
+        "tree": {
+          "sha": "16841038b1688192e8bcb7fd67b16fb3ad16aee3",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/16841038b1688192e8bcb7fd67b16fb3ad16aee3"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/fa39a97bc6ef32d5020eff54bd110acc2c4278ac",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/fa39a97bc6ef32d5020eff54bd110acc2c4278ac",
+      "html_url": "https://github.com/mojombo/jekyll/commits/fa39a97bc6ef32d5020eff54bd110acc2c4278ac",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/fa39a97bc6ef32d5020eff54bd110acc2c4278ac/comments",
+      "author": {
+        "login": "mattr-",
+        "id": 77174,
+        "avatar_url": "https://secure.gravatar.com/avatar/bcd88817ec5ed065ed5e3693ab46f924?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "bcd88817ec5ed065ed5e3693ab46f924",
+        "url": "https://api.github.com/users/mattr-",
+        "html_url": "https://github.com/mattr-",
+        "followers_url": "https://api.github.com/users/mattr-/followers",
+        "following_url": "https://api.github.com/users/mattr-/following",
+        "gists_url": "https://api.github.com/users/mattr-/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mattr-/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mattr-/subscriptions",
+        "organizations_url": "https://api.github.com/users/mattr-/orgs",
+        "repos_url": "https://api.github.com/users/mattr-/repos",
+        "events_url": "https://api.github.com/users/mattr-/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mattr-/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "mattr-",
+        "id": 77174,
+        "avatar_url": "https://secure.gravatar.com/avatar/bcd88817ec5ed065ed5e3693ab46f924?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "bcd88817ec5ed065ed5e3693ab46f924",
+        "url": "https://api.github.com/users/mattr-",
+        "html_url": "https://github.com/mattr-",
+        "followers_url": "https://api.github.com/users/mattr-/followers",
+        "following_url": "https://api.github.com/users/mattr-/following",
+        "gists_url": "https://api.github.com/users/mattr-/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mattr-/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mattr-/subscriptions",
+        "organizations_url": "https://api.github.com/users/mattr-/orgs",
+        "repos_url": "https://api.github.com/users/mattr-/repos",
+        "events_url": "https://api.github.com/users/mattr-/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mattr-/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+          "html_url": "https://github.com/mojombo/jekyll/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e"
+        }
+      ]
+    },
+    {
+      "sha": "0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-25T18:01:57Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-25T18:01:57Z"
+        },
+        "message": "Update history to reflect merge of #883",
+        "tree": {
+          "sha": "4fc387fd62d2a39354a28bf103828706902b4f60",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/4fc387fd62d2a39354a28bf103828706902b4f60"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+      "html_url": "https://github.com/mojombo/jekyll/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/0520ecb3c4332d960b2ae705a9397d4bc4417e4e/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "51e130bb791bee508b5ac9f00b2342d4ccc77c33",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/51e130bb791bee508b5ac9f00b2342d4ccc77c33",
+          "html_url": "https://github.com/mojombo/jekyll/commits/51e130bb791bee508b5ac9f00b2342d4ccc77c33"
+        }
+      ]
+    },
+    {
+      "sha": "51e130bb791bee508b5ac9f00b2342d4ccc77c33",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-25T18:01:28Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-25T18:01:28Z"
+        },
+        "message": "Force usage of older directory_watcher gem as 1.5 is broken. #883",
+        "tree": {
+          "sha": "ee2ce97e09c09eeac39d38099f3a39cb88fc42ce",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/ee2ce97e09c09eeac39d38099f3a39cb88fc42ce"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/51e130bb791bee508b5ac9f00b2342d4ccc77c33",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/51e130bb791bee508b5ac9f00b2342d4ccc77c33",
+      "html_url": "https://github.com/mojombo/jekyll/commits/51e130bb791bee508b5ac9f00b2342d4ccc77c33",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/51e130bb791bee508b5ac9f00b2342d4ccc77c33/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "196e26b580c5f001a6671094e046b1c6bbd30f78",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/196e26b580c5f001a6671094e046b1c6bbd30f78",
+          "html_url": "https://github.com/mojombo/jekyll/commits/196e26b580c5f001a6671094e046b1c6bbd30f78"
+        }
+      ]
+    },
+    {
+      "sha": "196e26b580c5f001a6671094e046b1c6bbd30f78",
+      "commit": {
+        "author": {
+          "name": "Aleksey V. Zapparov",
+          "email": "ixti@member.fsf.org",
+          "date": "2013-03-19T22:14:39Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-19T22:16:53Z"
+        },
+        "message": "Flatten tags and categories lists. Fixes #741.",
+        "tree": {
+          "sha": "1f52a7d6a0f4e2c286cd0a39590fcc0ee9eead84",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/1f52a7d6a0f4e2c286cd0a39590fcc0ee9eead84"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/196e26b580c5f001a6671094e046b1c6bbd30f78",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/196e26b580c5f001a6671094e046b1c6bbd30f78",
+      "html_url": "https://github.com/mojombo/jekyll/commits/196e26b580c5f001a6671094e046b1c6bbd30f78",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/196e26b580c5f001a6671094e046b1c6bbd30f78/comments",
+      "author": {
+        "login": "ixti",
+        "id": 94782,
+        "avatar_url": "https://secure.gravatar.com/avatar/aae6d4accf06084efc742f85d3806b33?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "aae6d4accf06084efc742f85d3806b33",
+        "url": "https://api.github.com/users/ixti",
+        "html_url": "https://github.com/ixti",
+        "followers_url": "https://api.github.com/users/ixti/followers",
+        "following_url": "https://api.github.com/users/ixti/following",
+        "gists_url": "https://api.github.com/users/ixti/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ixti/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ixti/subscriptions",
+        "organizations_url": "https://api.github.com/users/ixti/orgs",
+        "repos_url": "https://api.github.com/users/ixti/repos",
+        "events_url": "https://api.github.com/users/ixti/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ixti/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "0353733455579c838c3483488f343ea8db09f26b",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/0353733455579c838c3483488f343ea8db09f26b",
+          "html_url": "https://github.com/mojombo/jekyll/commits/0353733455579c838c3483488f343ea8db09f26b"
+        }
+      ]
+    },
+    {
+      "sha": "0353733455579c838c3483488f343ea8db09f26b",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-19T21:38:58Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-19T21:38:58Z"
+        },
+        "message": "@mojombo and I are sick of Travis emails.",
+        "tree": {
+          "sha": "3d1d7f045f6f59d4577d501a557ccadb818a1d92",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/3d1d7f045f6f59d4577d501a557ccadb818a1d92"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/0353733455579c838c3483488f343ea8db09f26b",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/0353733455579c838c3483488f343ea8db09f26b",
+      "html_url": "https://github.com/mojombo/jekyll/commits/0353733455579c838c3483488f343ea8db09f26b",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/0353733455579c838c3483488f343ea8db09f26b/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "a72cdc9293051937ddca6af4db01fddbc54828ca",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/a72cdc9293051937ddca6af4db01fddbc54828ca",
+          "html_url": "https://github.com/mojombo/jekyll/commits/a72cdc9293051937ddca6af4db01fddbc54828ca"
+        }
+      ]
+    },
+    {
+      "sha": "a72cdc9293051937ddca6af4db01fddbc54828ca",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-19T21:31:37Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-19T21:31:37Z"
+        },
+        "message": "Auto-regeneration fails loudly. Fixes #470.",
+        "tree": {
+          "sha": "53a4f3079dc3841645155c1d9e86dc7f2293a720",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/53a4f3079dc3841645155c1d9e86dc7f2293a720"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/a72cdc9293051937ddca6af4db01fddbc54828ca",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/a72cdc9293051937ddca6af4db01fddbc54828ca",
+      "html_url": "https://github.com/mojombo/jekyll/commits/a72cdc9293051937ddca6af4db01fddbc54828ca",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/a72cdc9293051937ddca6af4db01fddbc54828ca/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "d6e0e5e2976a9868bdeb989c5dc22486ee6173ac",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/d6e0e5e2976a9868bdeb989c5dc22486ee6173ac",
+          "html_url": "https://github.com/mojombo/jekyll/commits/d6e0e5e2976a9868bdeb989c5dc22486ee6173ac"
+        }
+      ]
+    },
+    {
+      "sha": "d6e0e5e2976a9868bdeb989c5dc22486ee6173ac",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-19T21:22:46Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-19T21:22:46Z"
+        },
+        "message": "Syncing STDOUT. Fixes #625.",
+        "tree": {
+          "sha": "e662ccf49f271621033a6f185223c56d29206ad5",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/e662ccf49f271621033a6f185223c56d29206ad5"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/d6e0e5e2976a9868bdeb989c5dc22486ee6173ac",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/d6e0e5e2976a9868bdeb989c5dc22486ee6173ac",
+      "html_url": "https://github.com/mojombo/jekyll/commits/d6e0e5e2976a9868bdeb989c5dc22486ee6173ac",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/d6e0e5e2976a9868bdeb989c5dc22486ee6173ac/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "787d68f512a023c0c321deb3fa25cffd02fc851d",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/787d68f512a023c0c321deb3fa25cffd02fc851d",
+          "html_url": "https://github.com/mojombo/jekyll/commits/787d68f512a023c0c321deb3fa25cffd02fc851d"
+        }
+      ]
+    },
+    {
+      "sha": "787d68f512a023c0c321deb3fa25cffd02fc851d",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-18T23:11:33Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-18T23:11:33Z"
+        },
+        "message": "Release 1.0.0.beta2",
+        "tree": {
+          "sha": "29ff3f08609ea59a3740b52e1e58336b1c77eef6",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/29ff3f08609ea59a3740b52e1e58336b1c77eef6"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/787d68f512a023c0c321deb3fa25cffd02fc851d",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/787d68f512a023c0c321deb3fa25cffd02fc851d",
+      "html_url": "https://github.com/mojombo/jekyll/commits/787d68f512a023c0c321deb3fa25cffd02fc851d",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/787d68f512a023c0c321deb3fa25cffd02fc851d/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "de8f0c986ced57ddfc52b47b2717d14ce9eef42d",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/de8f0c986ced57ddfc52b47b2717d14ce9eef42d",
+          "html_url": "https://github.com/mojombo/jekyll/commits/de8f0c986ced57ddfc52b47b2717d14ce9eef42d"
+        }
+      ]
+    },
+    {
+      "sha": "de8f0c986ced57ddfc52b47b2717d14ce9eef42d",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-18T23:08:56Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-18T23:08:56Z"
+        },
+        "message": "Update version for 1.0.0.beta2.",
+        "tree": {
+          "sha": "29ff3f08609ea59a3740b52e1e58336b1c77eef6",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/29ff3f08609ea59a3740b52e1e58336b1c77eef6"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/de8f0c986ced57ddfc52b47b2717d14ce9eef42d",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/de8f0c986ced57ddfc52b47b2717d14ce9eef42d",
+      "html_url": "https://github.com/mojombo/jekyll/commits/de8f0c986ced57ddfc52b47b2717d14ce9eef42d",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/de8f0c986ced57ddfc52b47b2717d14ce9eef42d/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "51ec073e34e44b9f66bb94b62b30aa9e16422ab0",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/51ec073e34e44b9f66bb94b62b30aa9e16422ab0",
+          "html_url": "https://github.com/mojombo/jekyll/commits/51ec073e34e44b9f66bb94b62b30aa9e16422ab0"
+        }
+      ]
+    },
+    {
+      "sha": "51ec073e34e44b9f66bb94b62b30aa9e16422ab0",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-18T17:32:50Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-18T17:32:50Z"
+        },
+        "message": "Add 0.12.1 release notes to History.txt in master. #866",
+        "tree": {
+          "sha": "b39da6336b7e3c7a96044f96f8ea94343228771c",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/b39da6336b7e3c7a96044f96f8ea94343228771c"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/51ec073e34e44b9f66bb94b62b30aa9e16422ab0",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/51ec073e34e44b9f66bb94b62b30aa9e16422ab0",
+      "html_url": "https://github.com/mojombo/jekyll/commits/51ec073e34e44b9f66bb94b62b30aa9e16422ab0",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/51ec073e34e44b9f66bb94b62b30aa9e16422ab0/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "c1f309d2d77b6e468e43c0058b89e808dff66085",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/c1f309d2d77b6e468e43c0058b89e808dff66085",
+          "html_url": "https://github.com/mojombo/jekyll/commits/c1f309d2d77b6e468e43c0058b89e808dff66085"
+        }
+      ]
+    },
+    {
+      "sha": "c1f309d2d77b6e468e43c0058b89e808dff66085",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T23:00:48Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T23:00:48Z"
+        },
+        "message": "Update history to reflect merge of #872. Closes #842.",
+        "tree": {
+          "sha": "c4e5c8c491f7cd35c58c4c455dc5d7ce1060bcdf",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/c4e5c8c491f7cd35c58c4c455dc5d7ce1060bcdf"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/c1f309d2d77b6e468e43c0058b89e808dff66085",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/c1f309d2d77b6e468e43c0058b89e808dff66085",
+      "html_url": "https://github.com/mojombo/jekyll/commits/c1f309d2d77b6e468e43c0058b89e808dff66085",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/c1f309d2d77b6e468e43c0058b89e808dff66085/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "b83d0a3fa50a870cdaeb685f4c9825f02ba4727e",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/b83d0a3fa50a870cdaeb685f4c9825f02ba4727e",
+          "html_url": "https://github.com/mojombo/jekyll/commits/b83d0a3fa50a870cdaeb685f4c9825f02ba4727e"
+        }
+      ]
+    },
+    {
+      "sha": "b83d0a3fa50a870cdaeb685f4c9825f02ba4727e",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T22:59:25Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T22:59:25Z"
+        },
+        "message": "Merge pull request #872 from mojombo/downcase-post-cats\n\nEnsure all Post categories are downcase",
+        "tree": {
+          "sha": "2365b5a1e36e5e0b1ab618253b82c0927e34a01b",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/2365b5a1e36e5e0b1ab618253b82c0927e34a01b"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/b83d0a3fa50a870cdaeb685f4c9825f02ba4727e",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/b83d0a3fa50a870cdaeb685f4c9825f02ba4727e",
+      "html_url": "https://github.com/mojombo/jekyll/commits/b83d0a3fa50a870cdaeb685f4c9825f02ba4727e",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/b83d0a3fa50a870cdaeb685f4c9825f02ba4727e/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "9d814a4eb7b59ce617569b40a19c3c183fecda33",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33",
+          "html_url": "https://github.com/mojombo/jekyll/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33"
+        },
+        {
+          "sha": "73ca35ee81a0eb10740eab542c4b45be6c1fa520",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/73ca35ee81a0eb10740eab542c4b45be6c1fa520",
+          "html_url": "https://github.com/mojombo/jekyll/commits/73ca35ee81a0eb10740eab542c4b45be6c1fa520"
+        }
+      ]
+    },
+    {
+      "sha": "73ca35ee81a0eb10740eab542c4b45be6c1fa520",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:59:33Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T22:43:37Z"
+        },
+        "message": "Ensure all categories are downcase. Fix for #842.",
+        "tree": {
+          "sha": "2365b5a1e36e5e0b1ab618253b82c0927e34a01b",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/2365b5a1e36e5e0b1ab618253b82c0927e34a01b"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/73ca35ee81a0eb10740eab542c4b45be6c1fa520",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/73ca35ee81a0eb10740eab542c4b45be6c1fa520",
+      "html_url": "https://github.com/mojombo/jekyll/commits/73ca35ee81a0eb10740eab542c4b45be6c1fa520",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/73ca35ee81a0eb10740eab542c4b45be6c1fa520/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "9d814a4eb7b59ce617569b40a19c3c183fecda33",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33",
+          "html_url": "https://github.com/mojombo/jekyll/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33"
+        }
+      ]
+    },
+    {
+      "sha": "9d814a4eb7b59ce617569b40a19c3c183fecda33",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T22:35:46Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T22:35:46Z"
+        },
+        "message": "Add method String#force_encoding to 1.8.7",
+        "tree": {
+          "sha": "9a161f32a5801edc67bd2dece3e387334983c214",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/9a161f32a5801edc67bd2dece3e387334983c214"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33",
+      "html_url": "https://github.com/mojombo/jekyll/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/9d814a4eb7b59ce617569b40a19c3c183fecda33/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "e3192792cd51ab72f4697f7a441f08ee9038e7ba",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/e3192792cd51ab72f4697f7a441f08ee9038e7ba",
+          "html_url": "https://github.com/mojombo/jekyll/commits/e3192792cd51ab72f4697f7a441f08ee9038e7ba"
+        }
+      ]
+    },
+    {
+      "sha": "e3192792cd51ab72f4697f7a441f08ee9038e7ba",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:31:50Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:31:50Z"
+        },
+        "message": "Merge branch 'master' of github.com:mojombo/jekyll\n\n* 'master' of github.com:mojombo/jekyll:\n  Added note to highlight common pitfall/misconception regarding Pagination's capabilities.",
+        "tree": {
+          "sha": "3d1afd2ccaa8518790acfd2e6c16ab62b7443592",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/3d1afd2ccaa8518790acfd2e6c16ab62b7443592"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/e3192792cd51ab72f4697f7a441f08ee9038e7ba",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/e3192792cd51ab72f4697f7a441f08ee9038e7ba",
+      "html_url": "https://github.com/mojombo/jekyll/commits/e3192792cd51ab72f4697f7a441f08ee9038e7ba",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/e3192792cd51ab72f4697f7a441f08ee9038e7ba/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "036fce8799a5cb8c3b2d88eacc658117df23f7e5",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/036fce8799a5cb8c3b2d88eacc658117df23f7e5",
+          "html_url": "https://github.com/mojombo/jekyll/commits/036fce8799a5cb8c3b2d88eacc658117df23f7e5"
+        },
+        {
+          "sha": "dd7cf6511e2291fa859230837f5d05378f492900",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/dd7cf6511e2291fa859230837f5d05378f492900",
+          "html_url": "https://github.com/mojombo/jekyll/commits/dd7cf6511e2291fa859230837f5d05378f492900"
+        }
+      ]
+    },
+    {
+      "sha": "036fce8799a5cb8c3b2d88eacc658117df23f7e5",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:29:50Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:29:50Z"
+        },
+        "message": "Update history to reflect merge of #555. Closes #555.",
+        "tree": {
+          "sha": "97d89ffb38d448699908a88d12030398961c3e73",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/97d89ffb38d448699908a88d12030398961c3e73"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/036fce8799a5cb8c3b2d88eacc658117df23f7e5",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/036fce8799a5cb8c3b2d88eacc658117df23f7e5",
+      "html_url": "https://github.com/mojombo/jekyll/commits/036fce8799a5cb8c3b2d88eacc658117df23f7e5",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/036fce8799a5cb8c3b2d88eacc658117df23f7e5/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "f7f64576e5d69b0c5f05f27270a5c382a251bf0d",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/f7f64576e5d69b0c5f05f27270a5c382a251bf0d",
+          "html_url": "https://github.com/mojombo/jekyll/commits/f7f64576e5d69b0c5f05f27270a5c382a251bf0d"
+        }
+      ]
+    },
+    {
+      "sha": "f7f64576e5d69b0c5f05f27270a5c382a251bf0d",
+      "commit": {
+        "author": {
+          "name": "Dave Wasmer",
+          "email": "davewasmer@gmail.com",
+          "date": "2013-03-17T21:28:33Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:28:52Z"
+        },
+        "message": "Force encoding of the rdiscount TOC to UTF8 to avoid conversion errors",
+        "tree": {
+          "sha": "e12f5d74b10b9e77ff50dcd8844360a0aa8672b0",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/e12f5d74b10b9e77ff50dcd8844360a0aa8672b0"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/f7f64576e5d69b0c5f05f27270a5c382a251bf0d",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/f7f64576e5d69b0c5f05f27270a5c382a251bf0d",
+      "html_url": "https://github.com/mojombo/jekyll/commits/f7f64576e5d69b0c5f05f27270a5c382a251bf0d",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/f7f64576e5d69b0c5f05f27270a5c382a251bf0d/comments",
+      "author": {
+        "login": "davewasmer",
+        "id": 707213,
+        "avatar_url": "https://secure.gravatar.com/avatar/f70874714f4bb31b2ab4b6c70de39b04?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "f70874714f4bb31b2ab4b6c70de39b04",
+        "url": "https://api.github.com/users/davewasmer",
+        "html_url": "https://github.com/davewasmer",
+        "followers_url": "https://api.github.com/users/davewasmer/followers",
+        "following_url": "https://api.github.com/users/davewasmer/following",
+        "gists_url": "https://api.github.com/users/davewasmer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davewasmer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davewasmer/subscriptions",
+        "organizations_url": "https://api.github.com/users/davewasmer/orgs",
+        "repos_url": "https://api.github.com/users/davewasmer/repos",
+        "events_url": "https://api.github.com/users/davewasmer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davewasmer/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "677a87e43739643193d734a7cd15062f86607d7b",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/677a87e43739643193d734a7cd15062f86607d7b",
+          "html_url": "https://github.com/mojombo/jekyll/commits/677a87e43739643193d734a7cd15062f86607d7b"
+        }
+      ]
+    },
+    {
+      "sha": "dd7cf6511e2291fa859230837f5d05378f492900",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:24:57Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T21:24:57Z"
+        },
+        "message": "Merge pull request #853 from davecranwell/master\n\nPagination can't be filtered by tag or category, but this isn't clear and is often found out too late by an implementer",
+        "tree": {
+          "sha": "9bbaac0c6a3207a241bf4923c095e82b2542489c",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/9bbaac0c6a3207a241bf4923c095e82b2542489c"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/dd7cf6511e2291fa859230837f5d05378f492900",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/dd7cf6511e2291fa859230837f5d05378f492900",
+      "html_url": "https://github.com/mojombo/jekyll/commits/dd7cf6511e2291fa859230837f5d05378f492900",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/dd7cf6511e2291fa859230837f5d05378f492900/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "677a87e43739643193d734a7cd15062f86607d7b",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/677a87e43739643193d734a7cd15062f86607d7b",
+          "html_url": "https://github.com/mojombo/jekyll/commits/677a87e43739643193d734a7cd15062f86607d7b"
+        },
+        {
+          "sha": "a6f3c4f1cd1e603f92cf0b95132abd8eaa226eab",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/a6f3c4f1cd1e603f92cf0b95132abd8eaa226eab",
+          "html_url": "https://github.com/mojombo/jekyll/commits/a6f3c4f1cd1e603f92cf0b95132abd8eaa226eab"
+        }
+      ]
+    },
+    {
+      "sha": "677a87e43739643193d734a7cd15062f86607d7b",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:34:35Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:34:35Z"
+        },
+        "message": "Update history to reflect #861",
+        "tree": {
+          "sha": "616455d75801ee6126c9032ce3a1df18af79ee28",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/616455d75801ee6126c9032ce3a1df18af79ee28"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/677a87e43739643193d734a7cd15062f86607d7b",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/677a87e43739643193d734a7cd15062f86607d7b",
+      "html_url": "https://github.com/mojombo/jekyll/commits/677a87e43739643193d734a7cd15062f86607d7b",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/677a87e43739643193d734a7cd15062f86607d7b/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "a054ce27884713675a802b1d6a26ea7ac2e82a12",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/a054ce27884713675a802b1d6a26ea7ac2e82a12",
+          "html_url": "https://github.com/mojombo/jekyll/commits/a054ce27884713675a802b1d6a26ea7ac2e82a12"
+        }
+      ]
+    },
+    {
+      "sha": "a054ce27884713675a802b1d6a26ea7ac2e82a12",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:33:10Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:33:10Z"
+        },
+        "message": "Merge pull request #861 from danielgrieve/gist-tag\n\ndisplay single files from gist",
+        "tree": {
+          "sha": "dc2c30b39833390be9605cecf3c63de3477975b0",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/dc2c30b39833390be9605cecf3c63de3477975b0"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/a054ce27884713675a802b1d6a26ea7ac2e82a12",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/a054ce27884713675a802b1d6a26ea7ac2e82a12",
+      "html_url": "https://github.com/mojombo/jekyll/commits/a054ce27884713675a802b1d6a26ea7ac2e82a12",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/a054ce27884713675a802b1d6a26ea7ac2e82a12/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "309e03b1d3600ea1507c6cc4cb5143b1a55f5923",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/309e03b1d3600ea1507c6cc4cb5143b1a55f5923",
+          "html_url": "https://github.com/mojombo/jekyll/commits/309e03b1d3600ea1507c6cc4cb5143b1a55f5923"
+        },
+        {
+          "sha": "b9cbce5e5f98d19963f0918356933e96f84bfd75",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/b9cbce5e5f98d19963f0918356933e96f84bfd75",
+          "html_url": "https://github.com/mojombo/jekyll/commits/b9cbce5e5f98d19963f0918356933e96f84bfd75"
+        }
+      ]
+    },
+    {
+      "sha": "309e03b1d3600ea1507c6cc4cb5143b1a55f5923",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:31:30Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:31:30Z"
+        },
+        "message": "Update history to reflect merge of #871.",
+        "tree": {
+          "sha": "f2c4f813fe9c2e31f22461fdfe38960583b2f3a5",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/f2c4f813fe9c2e31f22461fdfe38960583b2f3a5"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/309e03b1d3600ea1507c6cc4cb5143b1a55f5923",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/309e03b1d3600ea1507c6cc4cb5143b1a55f5923",
+      "html_url": "https://github.com/mojombo/jekyll/commits/309e03b1d3600ea1507c6cc4cb5143b1a55f5923",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/309e03b1d3600ea1507c6cc4cb5143b1a55f5923/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "7ba5a27a743e7d9e243e7172a49c23ac7ee476d1",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/7ba5a27a743e7d9e243e7172a49c23ac7ee476d1",
+          "html_url": "https://github.com/mojombo/jekyll/commits/7ba5a27a743e7d9e243e7172a49c23ac7ee476d1"
+        }
+      ]
+    },
+    {
+      "sha": "7ba5a27a743e7d9e243e7172a49c23ac7ee476d1",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:22:51Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:22:51Z"
+        },
+        "message": "Merge pull request #871 from mojombo/gh-pages-mime-types\n\nUse GH Pages MIME types.",
+        "tree": {
+          "sha": "d6093ea1959748af9ecfcb5dadf5f47c1e1947cc",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/d6093ea1959748af9ecfcb5dadf5f47c1e1947cc"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/7ba5a27a743e7d9e243e7172a49c23ac7ee476d1",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/7ba5a27a743e7d9e243e7172a49c23ac7ee476d1",
+      "html_url": "https://github.com/mojombo/jekyll/commits/7ba5a27a743e7d9e243e7172a49c23ac7ee476d1",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/7ba5a27a743e7d9e243e7172a49c23ac7ee476d1/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "4400e898985ec083cf89aefc8076bf18f2075273",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/4400e898985ec083cf89aefc8076bf18f2075273",
+          "html_url": "https://github.com/mojombo/jekyll/commits/4400e898985ec083cf89aefc8076bf18f2075273"
+        },
+        {
+          "sha": "8c6c33a6c87643ecab6acb7b48013be3071b22b7",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/8c6c33a6c87643ecab6acb7b48013be3071b22b7",
+          "html_url": "https://github.com/mojombo/jekyll/commits/8c6c33a6c87643ecab6acb7b48013be3071b22b7"
+        }
+      ]
+    },
+    {
+      "sha": "4400e898985ec083cf89aefc8076bf18f2075273",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:18:45Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:18:45Z"
+        },
+        "message": "Expect a 'baseurl' to be passed in to Site",
+        "tree": {
+          "sha": "d87f8fe35b685ee758a24ae02305092720ee25dc",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/d87f8fe35b685ee758a24ae02305092720ee25dc"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/4400e898985ec083cf89aefc8076bf18f2075273",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/4400e898985ec083cf89aefc8076bf18f2075273",
+      "html_url": "https://github.com/mojombo/jekyll/commits/4400e898985ec083cf89aefc8076bf18f2075273",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/4400e898985ec083cf89aefc8076bf18f2075273/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "0765d077300b3a57d585ce61726801cec69cbb50",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/0765d077300b3a57d585ce61726801cec69cbb50",
+          "html_url": "https://github.com/mojombo/jekyll/commits/0765d077300b3a57d585ce61726801cec69cbb50"
+        }
+      ]
+    },
+    {
+      "sha": "0765d077300b3a57d585ce61726801cec69cbb50",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:15:17Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:15:17Z"
+        },
+        "message": "Added sanity tests for #869.",
+        "tree": {
+          "sha": "15f82ef3cc9aeea9e0a529db3ccbadf5f79b1d62",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/15f82ef3cc9aeea9e0a529db3ccbadf5f79b1d62"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/0765d077300b3a57d585ce61726801cec69cbb50",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/0765d077300b3a57d585ce61726801cec69cbb50",
+      "html_url": "https://github.com/mojombo/jekyll/commits/0765d077300b3a57d585ce61726801cec69cbb50",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/0765d077300b3a57d585ce61726801cec69cbb50/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "ee697a6308f32a4b7374069da72e4c6681ea40ae",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/ee697a6308f32a4b7374069da72e4c6681ea40ae",
+          "html_url": "https://github.com/mojombo/jekyll/commits/ee697a6308f32a4b7374069da72e4c6681ea40ae"
+        }
+      ]
+    },
+    {
+      "sha": "8c6c33a6c87643ecab6acb7b48013be3071b22b7",
+      "commit": {
+        "author": {
+          "name": "Tom Preston-Werner",
+          "email": "tom@mojombo.com",
+          "date": "2013-03-17T20:14:35Z"
+        },
+        "committer": {
+          "name": "Tom Preston-Werner",
+          "email": "tom@mojombo.com",
+          "date": "2013-03-17T20:14:35Z"
+        },
+        "message": "Use GH Pages MIME types.",
+        "tree": {
+          "sha": "3b00f86e0c403dd9a2c0f118e0400133f76439d9",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/3b00f86e0c403dd9a2c0f118e0400133f76439d9"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/8c6c33a6c87643ecab6acb7b48013be3071b22b7",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/8c6c33a6c87643ecab6acb7b48013be3071b22b7",
+      "html_url": "https://github.com/mojombo/jekyll/commits/8c6c33a6c87643ecab6acb7b48013be3071b22b7",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/8c6c33a6c87643ecab6acb7b48013be3071b22b7/comments",
+      "author": {
+        "login": "mojombo",
+        "id": 1,
+        "avatar_url": "https://secure.gravatar.com/avatar/25c7c18223fb42a4c6ae1c8db6f50f9b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "25c7c18223fb42a4c6ae1c8db6f50f9b",
+        "url": "https://api.github.com/users/mojombo",
+        "html_url": "https://github.com/mojombo",
+        "followers_url": "https://api.github.com/users/mojombo/followers",
+        "following_url": "https://api.github.com/users/mojombo/following",
+        "gists_url": "https://api.github.com/users/mojombo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mojombo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mojombo/subscriptions",
+        "organizations_url": "https://api.github.com/users/mojombo/orgs",
+        "repos_url": "https://api.github.com/users/mojombo/repos",
+        "events_url": "https://api.github.com/users/mojombo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mojombo/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "mojombo",
+        "id": 1,
+        "avatar_url": "https://secure.gravatar.com/avatar/25c7c18223fb42a4c6ae1c8db6f50f9b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "25c7c18223fb42a4c6ae1c8db6f50f9b",
+        "url": "https://api.github.com/users/mojombo",
+        "html_url": "https://github.com/mojombo",
+        "followers_url": "https://api.github.com/users/mojombo/followers",
+        "following_url": "https://api.github.com/users/mojombo/following",
+        "gists_url": "https://api.github.com/users/mojombo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mojombo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mojombo/subscriptions",
+        "organizations_url": "https://api.github.com/users/mojombo/orgs",
+        "repos_url": "https://api.github.com/users/mojombo/repos",
+        "events_url": "https://api.github.com/users/mojombo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mojombo/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+          "html_url": "https://github.com/mojombo/jekyll/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d"
+        }
+      ]
+    },
+    {
+      "sha": "ee697a6308f32a4b7374069da72e4c6681ea40ae",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:09:58Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:09:58Z"
+        },
+        "message": "Add Jekyll::DEFAULTS['baseurl'] and set the default pygments option to _true_",
+        "tree": {
+          "sha": "a16308a6c8bc1265dd91897b2c6def452a0cdb0a",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/a16308a6c8bc1265dd91897b2c6def452a0cdb0a"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/ee697a6308f32a4b7374069da72e4c6681ea40ae",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/ee697a6308f32a4b7374069da72e4c6681ea40ae",
+      "html_url": "https://github.com/mojombo/jekyll/commits/ee697a6308f32a4b7374069da72e4c6681ea40ae",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/ee697a6308f32a4b7374069da72e4c6681ea40ae/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f",
+          "html_url": "https://github.com/mojombo/jekyll/commits/92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f"
+        }
+      ]
+    },
+    {
+      "sha": "92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:07:27Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T20:07:27Z"
+        },
+        "message": "Update gemspec so bundler doesn't complain.",
+        "tree": {
+          "sha": "06640800c44de829323889e910d927764bc80a26",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/06640800c44de829323889e910d927764bc80a26"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f",
+      "html_url": "https://github.com/mojombo/jekyll/commits/92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/92a2a9ff612f6dc299a1a0cd6dc67c8c050bd81f/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+          "html_url": "https://github.com/mojombo/jekyll/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d"
+        }
+      ]
+    },
+    {
+      "sha": "69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T19:54:52Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T19:54:52Z"
+        },
+        "message": "Update history to reflect merge of #869.",
+        "tree": {
+          "sha": "78b38455d3f97760c511544dedd8c2d588ef0f82",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/78b38455d3f97760c511544dedd8c2d588ef0f82"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+      "html_url": "https://github.com/mojombo/jekyll/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/69edec85597dd12c1ed7c6ad4346f7dc1faf289d/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "ebcf3eb3856a34f22832c8c5678819887915c741",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/ebcf3eb3856a34f22832c8c5678819887915c741",
+          "html_url": "https://github.com/mojombo/jekyll/commits/ebcf3eb3856a34f22832c8c5678819887915c741"
+        }
+      ]
+    },
+    {
+      "sha": "ebcf3eb3856a34f22832c8c5678819887915c741",
+      "commit": {
+        "author": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T19:53:27Z"
+        },
+        "committer": {
+          "name": "Parker Moore",
+          "email": "parkrmoore@gmail.com",
+          "date": "2013-03-17T19:53:27Z"
+        },
+        "message": "Merge pull request #869 from mojombo/baseurl-in-liquid\n\nExpose site.baseurl to Liquid templates.",
+        "tree": {
+          "sha": "29c77c42804aac98747baedb3d5aecc56560ea4e",
+          "url": "https://api.github.com/repos/mojombo/jekyll/git/trees/29c77c42804aac98747baedb3d5aecc56560ea4e"
+        },
+        "url": "https://api.github.com/repos/mojombo/jekyll/git/commits/ebcf3eb3856a34f22832c8c5678819887915c741",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/mojombo/jekyll/commits/ebcf3eb3856a34f22832c8c5678819887915c741",
+      "html_url": "https://github.com/mojombo/jekyll/commits/ebcf3eb3856a34f22832c8c5678819887915c741",
+      "comments_url": "https://api.github.com/repos/mojombo/jekyll/commits/ebcf3eb3856a34f22832c8c5678819887915c741/comments",
+      "author": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "committer": {
+        "login": "parkr",
+        "id": 237985,
+        "avatar_url": "https://secure.gravatar.com/avatar/3b05198379f4b275d304fd27e6cb09ae?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "3b05198379f4b275d304fd27e6cb09ae",
+        "url": "https://api.github.com/users/parkr",
+        "html_url": "https://github.com/parkr",
+        "followers_url": "https://api.github.com/users/parkr/followers",
+        "following_url": "https://api.github.com/users/parkr/following",
+        "gists_url": "https://api.github.com/users/parkr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parkr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parkr/subscriptions",
+        "organizations_url": "https://api.github.com/users/parkr/orgs",
+        "repos_url": "https://api.github.com/users/parkr/repos",
+        "events_url": "https://api.github.com/users/parkr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parkr/received_events",
+        "type": "User"
+      },
+      "parents": [
+        {
+          "sha": "b3c319743c31fb1266ba7c627b22551397c39185",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/b3c319743c31fb1266ba7c627b22551397c39185",
+          "html_url": "https://github.com/mojombo/jekyll/commits/b3c319743c31fb1266ba7c627b22551397c39185"
+        },
+        {
+          "sha": "d5ed4fc5d044a38c70e7405d090461e53c6bc56d",
+          "url": "https://api.github.com/repos/mojombo/jekyll/commits/d5ed4fc5d044a38c70e7405d090461e53c6bc56d",
+          "html_url": "https://github.com/mojombo/jekyll/commits/d5ed4fc5d044a38c70e7405d090461e53c6bc56d"
+        }
+      ]
+    }
+  ]
+}
