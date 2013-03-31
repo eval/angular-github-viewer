@@ -4,7 +4,10 @@
 
 
 function AppCtrl($scope, $http, $log) {
+  $scope.organization = 'github';
   $scope.members = [];
+  $scope.repos = [];
+  $scope.commits = [];
 
   $scope.getMembers = function(organization){
     $log.log("Wanna know about " + organization + ", huh?");
