@@ -63,7 +63,7 @@
             <table class="table table-striped">
               <tbody>
                 <tr ng-repeat="commit in commits">
-                  <td><a href="{{commit.url}}" target="_blank">{{commit.sha}}</a></td>
+                  <td><a href="{{commit.html_url}}" target="_blank">{{commit.sha}}</a></td>
                   <td><strong>{{commit.commit.message}}</strong></td>
                 </tr>
               </tbody>
