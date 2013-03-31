@@ -3,10 +3,14 @@
 /* Controllers */
 
 
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
+function AppCtrl($scope, $http, $log) {
+  $scope.members = [];
 
-
-function MyCtrl2() {
+  $scope.action = function(organization){
+    $log.log("Wanna know about " + organization + ", huh?");
+    $http.get('json/members.json').success(function(data){
+      $scope.members = data.data;
+    });
+  }
 }
-MyCtrl2.$inject = [];
+//MyCtrl1.$inject = [];
